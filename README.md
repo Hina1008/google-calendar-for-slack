@@ -24,6 +24,7 @@ OAuth & Permissons > Scopes > Bot Token Scopes　
 - chat:write(messageを送るため)
 - chat:write.customize(リッチテキスト、bot名を変更するため)
 - chat:write(DMへ送る場合に追加)
+
 ![スクリーンショット 2022-03-14 22 41 02](https://user-images.githubusercontent.com/40563830/158184042-3fe00e04-2bd6-466c-9c24-734e989002a4.png)
 
 設定後、InstallAppへ移動
@@ -52,6 +53,7 @@ F1キー > Remote-Containers: Rebuild and Reopen in Container
 `node@cxxxxxxx:/home/gas$ clasp login`
 
 以下のページが開かれるので、「許可」を選択する。
+
 ![スクリーンショット 2022-03-14 22 16 46](https://user-images.githubusercontent.com/40563830/158179553-653b6e8f-8910-4c0d-82d1-8819edbd2d86.png)
 
 ## Google App Scriptを作成
@@ -109,9 +111,11 @@ function setProperties(){
 
 ### SLACK_TOKEN
 Slack Appを作成した際の　Token ID
+
 ![スクリーンショット 2022-03-14 22 52 34](https://user-images.githubusercontent.com/40563830/158186339-8c07360e-fa13-4346-874a-69c5396a51ec.png)
 ### SLACK_CHANNEL
 投稿したいSLACKチャンネルのID
+
 ![スクリーンショット 2022-03-14 22 57 26](https://user-images.githubusercontent.com/40563830/158187140-bc2d7db1-1ea5-4acf-b37e-42950db34fd9.png)
 ### SCHEDULE_ID
 読み込みたいカレンダーのID
@@ -119,10 +123,12 @@ Slack Appを作成した際の　Token ID
 https://calendar.google.com/calendar/　へ移動
 
 設定 > マイカレンダーの設定 > 使用したいカレンダー選択 > カレンダーの統合
+
 ![スクリーンショット 2022-03-14 23 01 46](https://user-images.githubusercontent.com/40563830/158187956-e0e81260-4367-4d21-9859-24ca6c23cfbb.png)
 
 ### APP_NAME
 アプリの名前(投稿者名)　下記画像の「スケジュール管理」部分
+
 ![スクリーンショット 2022-03-14 22 05 27](https://user-images.githubusercontent.com/40563830/158177824-6f7d610a-76e1-482c-a497-dc7a83b922f7.png)
 
 ## 実行
